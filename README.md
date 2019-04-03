@@ -1,7 +1,7 @@
 # linux-cheatsheet
 Simple linux cheat sheet
 
-#### Find files per extension including finding folder depth
+#### Find files per extension including folder depth
 ```
 find . -maxdepth 3 -iname \*.zip
 ```
@@ -11,7 +11,7 @@ find . -maxdepth 3 -iname \*.zip
 sed -i /-9999/d textfile.txt
 ```
 
-#### Concatenate several .csv files
+#### Concatenate several text files in one
 ```
 cat *.csv > out.csv
 ```
