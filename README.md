@@ -15,3 +15,10 @@ sed -i /-9999/d textfile.txt
 ```
 cat *.csv > out.csv
 ```
+
+#### Replace text in file and save result
+- s/ replace
+- g/ global, replace all occurrences
+```
+sed 's/texttofind/texttoreplace/g' input.txt > output.txt
+```
